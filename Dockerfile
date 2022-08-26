@@ -1,4 +1,4 @@
-From openjdk:11
+From openjdk:1.8
 
 # Maintainer 
 MAINTAINER "anita"
