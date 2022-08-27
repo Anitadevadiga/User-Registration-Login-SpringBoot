@@ -16,7 +16,11 @@ import org.springframework.web.servlet.ModelAndView;
 import io.aadeesh.model.User;
 import io.aadeesh.repo.UserRepository;
 
+import org.springframework.context.annotation.ComponentScan;
+
+
 @Controller 
+@ComponentScan
 public class UserController 
 {
 	@Autowired
