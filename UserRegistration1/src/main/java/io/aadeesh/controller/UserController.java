@@ -16,6 +16,9 @@ import org.springframework.web.servlet.ModelAndView;
 import io.aadeesh.model.User;
 import io.aadeesh.repo.UserRepository;
 
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 @RestController 
 public class UserController 
 {
