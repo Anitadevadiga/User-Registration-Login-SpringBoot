@@ -25,7 +25,7 @@ public class UserController
 	@Autowired
 	UserRepository urepo;
 	
-	@GetMapping("/home")
+	@RequestMapping("/")
 	public String home()
 	{
 		return "home";
