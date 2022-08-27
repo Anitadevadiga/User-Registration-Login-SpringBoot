@@ -1,4 +1,4 @@
-From openjdk:11
+From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "anita"
