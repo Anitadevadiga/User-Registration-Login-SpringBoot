@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
 import io.aadeesh.model.User;
 import io.aadeesh.repo.UserRepository;
 
-@Controller
+@RestController 
 public class UserController 
 {
 	@Autowired
