@@ -22,7 +22,7 @@ public class UserController
 	@Autowired
 	UserRepository urepo;
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String home()
 	{
 		return "home";
